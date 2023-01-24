@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:rmnd_sendinblue/Resources/Private/Language/locallang.xlf" product-name="rmnd_sendinblue">
+        <header/>
+        <body>
+            <trans-unit id="formEditor.elements.FormElement.editor.sendinblueAttribute.label">
+                <source>Sendinblue Attribute Name</source>
+            </trans-unit>
+            <trans-unit id="formEditor.elements.Form.finisher.SendinblueRegistration.editor.header.label">
+                <source>Sendinblue Registration</source>
+            </trans-unit>
+            <trans-unit id="formEditor.elements.Form.finisher.SendinblueRegistration.editor.listIds.label">
+                <source>List IDs (separated by comma)</source>
+            </trans-unit>
+            <trans-unit id="formEditor.elements.Form.finisher.SendinblueRegistration.editor.templateId.label">
+                <source>DOI Template ID</source>
+            </trans-unit>
+            <trans-unit id="formEditor.elements.Form.finisher.SendinblueRegistration.editor.redirectPage.label">
+                <source>DOI Redirect Page UID</source>
+            </trans-unit>
+            <trans-unit id="formEditor.elements.Form.finisher.SendinblueRegistration.editor.redirectPage.buttonLabel">
+                <source>Page</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

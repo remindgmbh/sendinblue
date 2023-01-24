@@ -1,0 +1,54 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formElementsDefinition:
+            AdvancedPassword: &sendinblueAttribute
+              formEditor:
+                editors:
+                  1674544675:
+                    identifier: sendinblueAttribute
+                    templateName: Inspector-TextEditor
+                    label: formEditor.elements.FormElement.editor.sendinblueAttribute.label
+                    propertyPath: properties.sendinblueAttribute
+            Checkbox:
+              <<: *sendinblueAttribute
+            ContentElement:
+              <<: *sendinblueAttribute
+            Date:
+              <<: *sendinblueAttribute
+            Email:
+              <<: *sendinblueAttribute
+            Fieldset:
+              <<: *sendinblueAttribute
+            FileUpload:
+              <<: *sendinblueAttribute
+            GridRow:
+              <<: *sendinblueAttribute
+            Hidden:
+              <<: *sendinblueAttribute
+            ImageUpload:
+              <<: *sendinblueAttribute
+            MultiCheckbox:
+              <<: *sendinblueAttribute
+            MultiSelect:
+              <<: *sendinblueAttribute
+            Number:
+              <<: *sendinblueAttribute
+            Password:
+              <<: *sendinblueAttribute
+            RadioButton:
+              <<: *sendinblueAttribute
+            SingleSelect:
+              <<: *sendinblueAttribute
+            StaticText:
+              <<: *sendinblueAttribute
+            Telephone:
+              <<: *sendinblueAttribute
+            Url:
+              <<: *sendinblueAttribute
+            Text:
+              <<: *sendinblueAttribute
+            Textarea:
+              <<: *sendinblueAttribute
