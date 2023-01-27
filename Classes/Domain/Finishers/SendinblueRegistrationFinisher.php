@@ -49,6 +49,10 @@ class SendinblueRegistrationFinisher extends AbstractFinisher
                 if ($sendinblueAttribute === 'EMAIL') {
                     $createDoiContact->setEmail($value);
                 } else {
+                    $type = $element->getType();
+                    if ($type === 'Checkbox') {
+                        $value = (bool) $value;
+                    }
                     $attributes[$sendinblueAttribute] = $value;
                 }
             }
